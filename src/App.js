@@ -15,7 +15,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>구구단</h1>
+      <h1>구구단을</h1>
       <input type="number" value={number} onChange={handleInputChange} />
       <button onClick={handleCalculate}>계산</button>
       <p>{`${number} * 2 = ${result}`}</p>
